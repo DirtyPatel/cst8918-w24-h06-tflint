@@ -2,6 +2,7 @@
 resource "azurerm_resource_group" "rg" {
   name     = "${var.labelPrefix}-A05-RG"
   location = var.region
+  description = "Add a basic resource group name."
 }
 
 # Define a public IP address
